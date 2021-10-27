@@ -1,7 +1,16 @@
 /* Hero */
 
+.hero-img {
+  background-image: url(https://github.com/Kostyant1n/goit-markup-hw-03/blob/main/images/hero.jpg?raw=true);
+  min-width: 1600px;
+  min-height: 600px;
+  min-left: 0px;
+  min-top: 80px;
+}
+
 .hero {
-  background-image: url(.jpg);
+  text-align: center;
+  padding: 200px 452px;
 }
 
 .hero-title {
@@ -9,19 +18,16 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: grey;
+  margin-top: 0px;
   margin-bottom: 30px;
 }
 
 /* Button */
 
 .button.hero {
-  display: flex;
+  display: inline-block;
   color: var(--primary-wight-color);
   background-color: var(--accent-pick-color);
   text-decoration: none;
@@ -33,7 +39,6 @@
   font-size: 16px;
   line-height: 1.88;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   padding: 10px 32px;
 }
@@ -45,12 +50,16 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .features p {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   color: var(--primary-text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Section */
@@ -61,6 +70,8 @@
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0px;
 }
 
 /* Features */
@@ -80,6 +91,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 .our-team p {
@@ -87,4 +100,6 @@
   font-size: 16px;
   line-height: 1.19;
   color: var(--primary-text-color);
+  margin-top: 10px;
+  margin-bottom: 0px;
 }

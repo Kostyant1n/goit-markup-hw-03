@@ -30,16 +30,18 @@ body {
 
 .list {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 /* Container */
 
 .container {
   margin-left: auto;
-  margin-top: auto;
-  width: 1200;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 1200px;
   outline: 2px solid tomato;
   background-color: turquoise;
 }
@@ -93,11 +95,6 @@ body {
   color: var(--hdaccent-pick-color);
 }
 
-.button {
-  color: var(--hdtitle-text-color);
-  background-color: var(--hdprimary-text-color);
-}
-
 /* Fotter */
 
 .footer-logo {
@@ -114,6 +111,7 @@ body {
 
 .page-footer {
   background-color: #2f303a;
+  padding: 60px;
 }
 
 address {
@@ -125,6 +123,8 @@ address {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 
 .contacts-footer .contact {
@@ -137,4 +137,11 @@ address {
 .contacts-footer .contact:hover,
 .contacts-footer .contact:focus {
   color: var(--hdaccent-pick-color);
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
