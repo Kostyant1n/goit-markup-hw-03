@@ -28,6 +28,8 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Утилиты */
+
 .list {
   list-style: none;
   padding: 0px;
@@ -41,14 +43,18 @@ body {
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1200px;
-  outline: 2px solid tomato;
-  background-color: turquoise;
 }
 
 /* Header */
 
 .page-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -56,6 +62,10 @@ body {
 }
 
 .header-logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
   color: #000000;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -73,8 +83,31 @@ body {
   text-decoration: none;
 }
 
+/* Main-nav */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+/* .site-nav .item {  
+} */
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav .link {
+  display: block;
+
   color: var(--hdtitle-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
@@ -84,6 +117,22 @@ body {
 
 .site-nav .link.current {
   color: var(--hdaccent-pick-color);
+}
+
+.contacts-header {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-header .contact {
+  display: block;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contacts-header .item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .contacts-header .contact {

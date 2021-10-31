@@ -4,8 +4,6 @@
   background-image: url(https://github.com/Kostyant1n/goit-markup-hw-03/blob/main/images/hero.jpg?raw=true);
   min-width: 1600px;
   min-height: 600px;
-  min-left: 0px;
-  min-top: 80px;
 }
 
 .hero {
@@ -53,13 +51,12 @@
   margin-top: 0px;
   margin-bottom: 10px;
 }
-.features p {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--primary-text-color);
-  margin-top: 0px;
+
+.benefits .section {
+  padding-top: 94px;
+  padding-bottom: 0px;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 /* Section */
@@ -74,17 +71,51 @@
   margin-top: 0px;
 }
 
+.work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work .item {
+  width: calc((100% - 30px * 2) / 3);
+  margin-right: 30px;
+}
+
+.work .item:nth-child(3n) {
+  margin-right: 0;
+}
+
 /* Features */
 
 .features .title {
   color: var(--title-text-color);
 }
 
-/* Our-team */
-
-.our-team .title {
-  color: var(--title-text-color);
+.features {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.features .item {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+}
+
+.features .item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.features p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--primary-text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+/* Our-team */
 
 .our-team .title {
   color: var(--title-text-color);
@@ -93,6 +124,23 @@
   line-height: 1.19;
   margin-top: 50px;
   margin-bottom: 0px;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.our-team {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-team .item {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+}
+
+.our-team .item:nth-child(4n) {
+  margin-right: 0;
 }
 
 .our-team p {
@@ -102,4 +150,9 @@
   color: var(--primary-text-color);
   margin-top: 10px;
   margin-bottom: 0px;
+  text-align: center;
+}
+
+.team-block {
+  background-color: #f5f4fa;
 }
