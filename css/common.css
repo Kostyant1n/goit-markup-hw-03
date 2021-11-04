@@ -148,6 +148,11 @@ body {
 
 /* Fotter */
 
+footer {
+  width: 100%;
+  background-color: #2f303a;
+}
+
 .footer-logo {
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
@@ -161,7 +166,6 @@ body {
 }
 
 .page-footer {
-  background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 15px;
