@@ -3,9 +3,9 @@
 .hero.section {
   text-align: center;
   padding: 200px 452px;
-  background-image: url(https://github.com/Kostyant1n/goit-markup-hw-03/blob/main/images/hero.jpg?raw=true);
   min-width: 1600px;
   min-height: 600px;
+  background-image: url(https://github.com/Kostyant1n/goit-markup-hw-03/blob/main/images/hero.jpg?raw=true);
 }
 
 .hero-title {
