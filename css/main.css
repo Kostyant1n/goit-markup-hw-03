@@ -6,7 +6,6 @@
   min-width: 1600px;
   min-height: 600px;
   background-image: url(https://github.com/Kostyant1n/goit-markup-hw-03/blob/main/images/hero.jpg?raw=true);
-  background-attachment: fixed;
 }
 
 .hero-title {
