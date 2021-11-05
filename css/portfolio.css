@@ -58,11 +58,11 @@
   margin-top: 0px;
   margin-bottom: 30px;
   margin-right: 30px;
-  border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
 .item img {
+  display: block;
   width: 100%;
 }
 
@@ -72,6 +72,10 @@
 
 .gallery .item:nth-child(3n) {
   margin-right: 0;
+}
+
+.gallery .caption {
+  border: 1px solid #eeeeee;
 }
 
 .gallery a {
