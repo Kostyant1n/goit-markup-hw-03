@@ -75,7 +75,19 @@
 }
 
 .gallery .caption {
-  border: 1px solid #eeeeee;
+  /* border-top: none;
+  border: 1px solid #eeeeee; */
+  /* Установит стили верхней рамки */
+  border-top: none;
+
+  /* Установит стили правой рамки */
+  border-right: 1px solid #eeeeee;
+
+  /* Установит стили нинжней рамки */
+  border-bottom: 1px solid #eeeeee;
+
+  /* Установит стили левой рамки */
+  border-left: 1px solid #eeeeee;
 }
 
 .gallery a {
@@ -88,9 +100,10 @@
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--fttitle-text-color);
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 24px;
+  padding-top: 20px;
+  padding-left: 24px;
 }
 
 .gallery .text {
@@ -98,7 +111,8 @@
   font-size: 16px;
   line-height: 1.88;
   color: var(--ftprimary-text-color);
-  margin-top: 4px;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  margin: 0px;
 }

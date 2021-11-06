@@ -59,10 +59,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
 
-  margin-left: auto;
-  margin-right: auto;
+.page-header .nav-contacts {
+  display: flex;
   width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
   padding-left: 15px;
 }
 
