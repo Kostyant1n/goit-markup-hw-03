@@ -50,8 +50,13 @@ body {
 
 /* Header */
 
-.page-header {
+.page-header .container {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header {
   align-items: center;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 
@@ -59,15 +64,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.page-header .nav-contacts {
-  display: flex;
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .header-logo {
@@ -88,7 +84,7 @@ body {
 }
 
 .page-header a,
-.page-footer a {
+.ftr a {
   text-decoration: none;
 }
 
@@ -154,8 +150,11 @@ body {
 /* Fotter */
 
 .ftr {
+  display: blo;
   width: 100%;
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -168,15 +167,6 @@ body {
 
 .footer-logo .logo-color {
   color: #2196f3;
-}
-
-.page-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
 }
 
 address {
