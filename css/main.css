@@ -3,7 +3,7 @@
 .hero.section {
   display: block;
   text-align: center;
-  padding: 200px 452px;
+  padding: 200px 0;
   min-width: 1600px;
   min-height: 600px;
   background-color: var(--background-grey-color);
