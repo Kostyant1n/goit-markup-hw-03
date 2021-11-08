@@ -44,9 +44,12 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 10px;
+}
+
+.benefits .title {
+  text-transform: uppercase;
 }
 
 .benefits {
@@ -118,6 +121,7 @@
 
 .our-team .title {
   color: var(--title-text-color);
+  list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
