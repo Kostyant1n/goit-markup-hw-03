@@ -171,6 +171,7 @@ body {
 
 address {
   font-style: normal;
+  margin-top: 20px;
 }
 
 .adress-footer {
@@ -178,8 +179,6 @@ address {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  margin-bottom: 0px;
-  margin-top: 20px;
 }
 
 .contacts-footer .contact {
@@ -187,6 +186,7 @@ address {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
 }
 
 .contacts-footer .contact:hover,
